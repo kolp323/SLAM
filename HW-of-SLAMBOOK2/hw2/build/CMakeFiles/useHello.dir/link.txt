@@ -1,3 +1,0 @@
-"E:\Program Files\cmake_3260\bin\cmake.exe" -E rm -f CMakeFiles\useHello.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\useHello.dir/objects.a @CMakeFiles\useHello.dir\objects1.rsp
-C:\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\useHello.dir/objects.a -Wl,--no-whole-archive -o useHello.exe -Wl,--out-implib,libuseHello.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\useHello.dir\linkLibs.rsp
