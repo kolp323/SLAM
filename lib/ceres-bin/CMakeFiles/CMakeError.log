@@ -1,0 +1,36 @@
+Performing C++ SOURCE FILE Test HAVE_BIGOBJ failed with the following output:
+Change Dir: /home/zsh/VScodeproject/SLAM/lib/ceres-bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_99741/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_99741.dir/build.make CMakeFiles/cmTC_99741.dir/build
+gmake[1]: Entering directory '/home/zsh/VScodeproject/SLAM/lib/ceres-bin/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99741.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_BIGOBJ  -fPIE   /bigobj -o CMakeFiles/cmTC_99741.dir/src.cxx.o -c /home/zsh/VScodeproject/SLAM/lib/ceres-bin/CMakeFiles/CMakeTmp/src.cxx
+c++: warning: /bigobj: linker input file unused because linking not done
+c++: error: /bigobj: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_99741.dir/build.make:78: CMakeFiles/cmTC_99741.dir/src.cxx.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_99741.dir/src.cxx.o'
+gmake[1]: Leaving directory '/home/zsh/VScodeproject/SLAM/lib/ceres-bin/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_99741/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/zsh/VScodeproject/SLAM/lib/ceres-bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52ffb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52ffb.dir/build.make CMakeFiles/cmTC_52ffb.dir/build
+gmake[1]: Entering directory '/home/zsh/VScodeproject/SLAM/lib/ceres-bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52ffb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fPIE -o CMakeFiles/cmTC_52ffb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_52ffb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52ffb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_52ffb.dir/CheckFunctionExists.c.o -o cmTC_52ffb 
+/usr/bin/ld: CMakeFiles/cmTC_52ffb.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_52ffb.dir/build.make:99: cmTC_52ffb] Error 1
+gmake[1]: Leaving directory '/home/zsh/VScodeproject/SLAM/lib/ceres-bin/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_52ffb/fast] Error 2
+
+
+

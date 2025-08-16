@@ -220,7 +220,7 @@ int main(int argc, char **argv) {
     for (int index = 1; index < 11; index++) {
 //     for (int index = 1; index < color_image_files.size(); index++) {
         cout << "*** loop " << index << " ***" << endl;	
-	chrono::steady_clock::time_point t1 = chrono::steady_clock::now();
+	    chrono::steady_clock::time_point t1 = chrono::steady_clock::now();
 	
         Mat curr = imread(color_image_files[index], 0);
         if (curr.data == nullptr) continue;
