@@ -1,0 +1,3 @@
+/home/zsh/VScodeproject/SLAM/my_work/ch6/build/CMakeFiles/gaussNewton.dir
+/home/zsh/VScodeproject/SLAM/my_work/ch6/build/CMakeFiles/edit_cache.dir
+/home/zsh/VScodeproject/SLAM/my_work/ch6/build/CMakeFiles/rebuild_cache.dir

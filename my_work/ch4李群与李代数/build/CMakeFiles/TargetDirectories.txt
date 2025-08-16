@@ -1,0 +1,4 @@
+/home/zsh/VScodeproject/SLAM/my_work/ch4/build/CMakeFiles/useSophus.dir
+/home/zsh/VScodeproject/SLAM/my_work/ch4/build/CMakeFiles/trajectoryError.dir
+/home/zsh/VScodeproject/SLAM/my_work/ch4/build/CMakeFiles/edit_cache.dir
+/home/zsh/VScodeproject/SLAM/my_work/ch4/build/CMakeFiles/rebuild_cache.dir
