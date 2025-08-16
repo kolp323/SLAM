@@ -37,3 +37,6 @@
 
 .cmake
 cmake/
+
+*.zip
+test_data/
